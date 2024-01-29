@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    background: #D7B18D
+}
+
+button {
+    color: black;
+    font-size: 32px;
+    font-family: Branden;
+    font-weight: 400;
+    word-wrap: break-word;
+    background-color: #CD9969;
+    border: none;
+}
+
+h2 {
+    font-family: Branden;
+}
+
+.stats {
+    float: right;
+    display: flex;
+    width: 10%;
+    height: 70%; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 34px; 
+    padding-bottom: 34px; 
+    background: #CD9969; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    border: 5px black solid;
+    flex-direction: column; 
+    justify-content: right; 
+    align-items: center; 
+    gap: 51px; 
+    margin: 2rem;
+}
+
+.lagVaffel {
+    width: 2rem;
+    height: 1rem; 
+    padding-left: 56px; 
+    padding-right: 56px; 
+    padding-top: 68px; 
+    padding-bottom: 68px; 
+    background: #CD9969;    
+    border-radius: 15px; 
+    overflow: hidden; 
+    border: 5px black solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    margin-left: 30%;
+}
+
+.selgVaffel {
+    width: 2rem;
+    height: 1rem; 
+    padding-left: 56px; 
+    padding-right: 56px; 
+    padding-top: 68px; 
+    padding-bottom: 68px; 
+    background: #CD9969; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    border: 5px black solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    float: right;
+    margin-right: 20%;
+}
+
+#minus {
+    width: 3rem;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+
+#pluss {
+    width: 3rem;
+    border: 5px black solid;
+    border-radius: 10px;
+}
